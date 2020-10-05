@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34e822b7-c34a-49ac-8f8d-b2ec1c327af4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htacces" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/View.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/Db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/account/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,11 @@
       <workItem from="1601455857560" duration="8771000" />
       <workItem from="1601477863573" duration="8368000" />
       <workItem from="1601542745594" duration="637000" />
-      <workItem from="1601549304124" duration="15980000" />
+      <workItem from="1601549304124" duration="16153000" />
+      <workItem from="1601718742374" duration="10941000" />
+      <workItem from="1601799243601" duration="8027000" />
+      <workItem from="1601837711136" duration="884000" />
+      <workItem from="1601910864226" duration="866000" />
     </task>
     <servers />
   </component>
@@ -79,14 +88,14 @@
       <screen x="0" y="28" width="1680" height="970" />
     </state>
     <state x="734" y="327" width="424" height="480" key="FileChooserDialogImpl/0.28.1680.970@0.28.1680.970" timestamp="1601403952424" />
-    <state x="1178" y="430" width="502" height="564" key="NewPhpClassDialog" timestamp="1601572269584">
+    <state x="1178" y="430" width="502" height="564" key="NewPhpClassDialog" timestamp="1601727698104">
       <screen x="0" y="28" width="1680" height="970" />
     </state>
-    <state x="1178" y="430" width="502" height="564" key="NewPhpClassDialog/0.28.1680.970@0.28.1680.970" timestamp="1601572269584" />
-    <state x="748" y="494" width="366" height="151" key="NewPhpFileDialog" timestamp="1601581944970">
+    <state x="1178" y="430" width="502" height="564" key="NewPhpClassDialog/0.28.1680.970@0.28.1680.970" timestamp="1601727698104" />
+    <state x="748" y="494" width="366" height="151" key="NewPhpFileDialog" timestamp="1601808103529">
       <screen x="0" y="28" width="1680" height="970" />
     </state>
-    <state x="748" y="494" width="366" height="151" key="NewPhpFileDialog/0.28.1680.970@0.28.1680.970" timestamp="1601581944970" />
+    <state x="748" y="494" width="366" height="151" key="NewPhpFileDialog/0.28.1680.970@0.28.1680.970" timestamp="1601808103529" />
     <state x="616" y="333" width="672" height="431" key="search.everywhere.popup" timestamp="1601495049804">
       <screen x="0" y="28" width="1680" height="970" />
     </state>

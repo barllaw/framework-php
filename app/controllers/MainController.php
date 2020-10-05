@@ -2,14 +2,17 @@
 
 namespace app\controllers;
 use app\core\Controller;
+use app\lib\Db;
 
 class MainController extends Controller
 {
     public function indexAction(){
-        $this->view->render('Main page!');
-    }
-    public function contactAction(){
-        echo "Contact page";
+
+        $result = $this->model->getNews();
+        $vars = [
+                'news' => $result,
+            ];
+        $this->view->render('Main page!', $vars);
     }
 
 }
